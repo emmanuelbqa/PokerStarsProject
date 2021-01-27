@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    As a user I want to add and remove from the betslip.",
+    "keyword": "Feature",
+    "name": "Betslip",
+    "line": 1,
+    "id": "betslip",
+    "tags": [],
+    "uri": "betslip.feature",
+    "elements": [
+      {
+        "id": "betslip;add-and-remove-bet-selection-from-betslip",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Add And Remove Bet Selection From Betslip",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to Pokerstars Sports Homepage",
+            "result": {
+              "status": "passed",
+              "duration": 4943000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on the first bet selection under Popular",
+            "result": {
+              "status": "passed",
+              "duration": 3656000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the bet selection is added to the bet slip",
+            "result": {
+              "status": "passed",
+              "duration": 425000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click on delete button",
+            "result": {
+              "status": "passed",
+              "duration": 505000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the betslip is empty",
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

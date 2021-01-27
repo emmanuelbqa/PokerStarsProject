@@ -1,0 +1,30 @@
+{
+
+
+    "env": 
+    {
+        
+        "base_url": "https://www.pokerstarssports.uk/"
+
+    },
+
+
+
+
+    "testFiles": "**/*.feature",
+
+    "defaultCommandTimeout": 16000,
+
+    "projectId": "cbjeon"
+
+
+
+
+
+
+
+
+
+
+
+}
